@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakthiadithya Selvaraj · web developer</title>
+  <link rel="stylesheet" href="./styles.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <!-- Floating particles (added dynamically) -->
+  <div id="particles"></div>
+
+  <main class="portfolio">
+    <!-- grid: left column with photo + name, right column with details -->
+    <div class="grid">
+      
+      <!-- LEFT - PHOTO & PERSONAL -->
+      <div class="photo-card">
+        <div class="photo-frame">
+          <div class="photo-placeholder">
+            <!-- YOUR PHOTO -->
+            <img src="./1761915138343.jpg" alt="Sakthiadithya Selvaraj">
+          </div>
+        </div>
+        <h1 class="name">Sakthiadithya Selvaraj</h1>
+        <div class="title">web developer</div>
+
+        <!-- mini contact details (interactive) -->
+        <div class="contact-mini">
+          <div class="contact-row">
+            <i class="fa-regular fa-envelope"></i>
+            <span>sakthiadithya47@gmail.com</span>
+          </div>
+          <div class="contact-row">
+            <i class="fa-regular fa-map-pin"></i>
+            <span>chennai · remote</span>
+          </div>
+          <div class="contact-row">
+            <i class="fa-regular fa-calendar"></i>
+            <span>available 2026</span>
+          </div>
+        </div>
+
+        <!-- short fun fact / status -->
+        <div style="background: rgba(255, 140, 100, 0.15); border-radius: 100px; padding: 0.6rem 1.2rem; font-size: 0.9rem; margin-top: 1rem; border: 1px solid #ff9f7c; backdrop-filter: blur(5px); animation: statusPulse 3s ease infinite;">
+          <i class="fa-regular fa-code" style="margin-right: 0.5rem; color: #ffb08a;"></i> 
+          <span style="color: #fff0e0;">currently building with html5,css3 & JAVASCRIPT</span>
+        </div>
+
+       
+      </div>
+
+      <!-- RIGHT - BIO, SKILLS, PROJECTS -->
+      <div class="content-card">
+        <h2><i class="fa-regular fa-pen-to-square"></i> About Sakthiadithya Selvaraj
+
+</h2>
+        <p class="intro-text">
+            IT student & web developer crafting modern web experiences. Skilled in React, JavaScript, and responsive design. Passionate about clean code and user-friendly solutions. Available for collaborations in 2026. Let's build something amazing together!
+
+
+        </p>
+
+        <!-- skills section -->
+        <h2 style="margin-top: 1.8rem;"><i class="fa-regular fa-star"></i> stack & tools</h2>
+        <div class="skill-cloud">
+          <span class="skill">HTML5</span>
+          <span class="skill">CSS3</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">React</span>
+          <span class="skill">Node.js</span>
+          <span class="skill">Express</span>
+          <span class="skill">MongoDB</span>
+          <span class="skill">Git</span>
+          <span class="skill">Figma</span>
+          <span class="skill">Tailwind</span>
+          <span class="skill">REST APIs</span>
+          <span class="skill">TypeScript</span>
+        </div>
+
+        <!-- featured projects -->
+        <h2 style="margin-top: 2rem;"><i class="fa-regular fa-folder-open"></i> projects</h2>
+        <div class="project-grid">
+          <div class="project-item">
+            <h3>taskflow</h3>
+            <p>Kanban-style task manager with drag & drop</p>
+            <div>
+              <span class="tech-tag">react</span>
+              <span class="tech-tag">dnd kit</span>
+              <span class="tech-tag">tailwind</span>
+            </div>
+          </div>
+          <div class="project-item">
+            <h3>recipe vault</h3>
+            <p>full‑stack recipe sharing & meal planner</p>
+            <div>
+              <span class="tech-tag">node</span>
+              <span class="tech-tag">ejs</span>
+              <span class="tech-tag">mongoDB</span>
+            </div>
+          </div>
+          <div class="project-item">
+            <h3>weather pulse</h3>
+            <p>real‑time weather with animated backgrounds</p>
+            <div>
+              <span class="tech-tag">vanilla js</span>
+              <span class="tech-tag">API</span>
+              <span class="tech-tag">css</span>
+            </div>
+          </div>
+          <div class="project-item">
+            <h3>portfolio 2025</h3>
+            <p>this very site – creative & responsive</p>
+            <div>
+              <span class="tech-tag">html/css</span>
+              <span class="tech-tag">flex/grid</span>
+              <span class="tech-tag">animations</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- social & contact footer inside card -->
+        <div class="social-links">
+          <a href="https://github.com/" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sakthiadithya-selvaraj-4a642a326/" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/sakthi._.str/" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <!-- additional contact line -->
+        <div style="display: flex; align-items: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
+          <span style="background: rgba(255, 140, 100, 0.15); padding: 0.5rem 1.2rem; border-radius: 70px; border: 1px solid #ff9f7c; backdrop-filter: blur(5px); animation: contactGlow 3s ease infinite;">
+            <i class="fa-regular fa-paper-plane" style="color: #ffb08a;"></i> sakthiadithya47@gmail.com
+          </span>
+          <span style="color: #c0b0a0; animation: arrowMove 2s ease infinite;">⬇️ resume on request</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- small footnote (responsive) -->
+    <div class="footnote">
+      <span>© 2026 Sakthiadithya Selvaraj – web developer</span>
+      <span style="display: flex; gap: 0.6rem;">
+        <i class="fa-regular fa-heart" style="color: #ff6b95; animation: heartBeat 1.5s ease infinite;"></i> 
+        <span>crafted with clarity</span>
+      </span>
+    </div>
+
+  </main>
+<script src="./script.js"></script>
+
+</body>
+</html>
